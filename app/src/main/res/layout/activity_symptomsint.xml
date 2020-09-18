@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".symptomsint">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/symptomscorona"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="If you found these symptoms click on the below image for reaching out your nearest hospital."
+            android:layout_marginTop="30dp"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/hospital"
+            android:id="@+id/hospitals"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Most specialised hospitals in your location"
+            android:layout_marginTop="20dp"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/micro"
+            android:src="@drawable/microbiologists"/>
+    </LinearLayout>
+
+</ScrollView>

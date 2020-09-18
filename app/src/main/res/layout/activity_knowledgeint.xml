@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".knowledgeint">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="For latest updates click on the image and for other languages scroll down"
+            android:textSize="18dp"/>
+
+        <ImageButton
+            android:id="@+id/toi"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/toi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coronavirus disease (COVID-19) is an infectious disease caused by a new virus.
+The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing. You can protect yourself by washing your hands frequently, avoiding touching your face, and avoiding close contact (1 meter or 3 feet) with people who are unwell."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="HOW IT SPREADS
+
+
+
+
+
+Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes, nose, or mouth."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/pand"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/who" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We are building a better, healthier future for people all over the world.
+
+Working with 194 Member States, across six regions, and from more than 150 offices, WHO staff are united in a shared commitment to achieve better health for everyone, everywhere.
+
+Together we strive to combat diseases – communicable diseases like influenza and HIV, and noncommunicable diseases like cancer and heart disease.
+
+We help mothers and children survive and thrive so they can look forward to a healthy old age. We ensure the safety of the air people breathe, the food they eat, the water they drink – and the medicines and vaccines they need."/>
+
+        <TextView
+            android:layout_width="426dp"
+            android:layout_height="78dp"
+            android:textStyle="bold"
+            android:text="for hindi updates click on the button" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/aaj"
+            android:src="@drawable/aaj"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="For updates in Telugu click on the below image"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv9"
+            android:src="@drawable/tv9app"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="For updates in Tamil click on the below image"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tamil"
+            android:src="@drawable/tamil"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="For updates in Marathi click on the below image"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/marathi"
+            android:src="@drawable/marathi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="For updates in Kannada click on the below image"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/kannada"
+            android:src="@drawable/kannada"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="For updates in Malayalam click on the below image"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/malayalam"
+            android:src="@drawable/malayalam"/>
+    </LinearLayout>
+
+</ScrollView>
